@@ -231,11 +231,10 @@ az vm create -g $RG -n $VM3 --nics $POW_NIC_ID \
   --size Standard_B2pts_v2 \
   --admin-username azureuser \
   --generate-ssh-keys \
-  --storage-sku Premium_LRS \
-  --os-disk-size-gb 64 \
-  --security-type TrustedLaunch \
-  --enable-secure-boot false \
-  --enable-vtpm false
+  --storage-sku Standard_LRS \
+  --os-disk-size-gb 32 \
+  --security-type Standard
+
 ```
 
 ## Step 9B — VM Creation (B2ats + B1s)
