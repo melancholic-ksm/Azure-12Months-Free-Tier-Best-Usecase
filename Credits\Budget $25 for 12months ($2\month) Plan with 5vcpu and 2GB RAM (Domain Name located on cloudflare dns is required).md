@@ -1,10 +1,10 @@
-# Azure Free Tier 12-Month Plan For ~$25 Budget/Credit [~$2 per month] — CLI Commands (Simplified Notes)
+# Azure Free Tier 12-Month Plan For \~$25 Budget/Credit [~$2 per month] — CLI Commands (Simplified Notes)
 
 ### ‼️NOTE: 
 - This plan is for users with a budget/credits ≤$25 for 12 months, or ≤$4 per month for 12 consecutive months and a domain name managed by Cloudflare DNS (which is free).
-- This plan includes 3 VMs: `B2ats v2` — 2 vCPUs, 1 GB RAM (AMD/x64), `B2pts v2` — 2 vCPUs, 1 GB RAM (ARM64), `B1s` — 1 vCPU, 1 GB RAM (AMD/x64)
+- This plan includes 3 VMs: `B2ats v2` — 2 vCPUs, 1 GB RAM (AMD x64), `B2pts v2` — 2 vCPUs, 1 GB RAM (ARM64), `B1s` — 1 vCPU, 1 GB RAM (intel x64)
 - All 3 VMs will run on Latest Ubuntu 24.04 LTS. You can customize this according to your need, (if you want to customize, than please modify step: 9 accordingly)
-- Two VMs (both AMD/x64 — B1s and B2ats v2) will use **P6 Premium free-tier 64 GB SSD OS disks**. The ARM64 VM (B2pts v2) will use **P6 Premium free-tier 64 GB SSD OS disk** as well.
+- Two VMs B2ats v2 [AMD x64] and B1s [intel x64] will use **P6 Premium free-tier 64 GB SSD OS disks**. The B2pts v2 [ARM64 VM] will use **P6 Premium free-tier 64 GB SSD OS disk** as well.
 - (If you want to customize anything according to your need, please modify Step: 7 and/or Step 9 accordingly)
 
 This document summarizes the Azure CLI commands to set up the Free Tier 12-Month environment with Cloudflare Tunnel integration, eliminating public IP costs. Scroll mid-page for Azure Cloud Shell CLI commands.
@@ -118,7 +118,7 @@ Enabled for all three VMs using the storage account.
 * Cloudflare tunnel eliminates ongoing public IP costs
 * Centralized NSG with inbound rules for SSH, HTTP, and HTTPS.
 * Boot diagnostics enabled via a storage account.
-* **Final Monthly Cost: ~$4/month after public IP removal**
+* **Final Monthly Cost: ~$2/month after public IP removal**
 
 ***
 
