@@ -7,14 +7,14 @@ No Domain name is necessary, if you got one you can use the other plan where it 
 - This plan includes 3 VMs:
   • `B2ats v2` — 2 vCPUs, 1 GB RAM (AMD/x64)  
   • `B2pts v2` — 2 vCPUs, 1 GB RAM (ARM64)  
-  • `B1s` — 1 vCPU, 1 GB RAM (AMD/x64)
+  • `B1s` — 1 vCPU, 1 GB RAM (intel x64)
 
 - All 3 VMs will run on the latest Ubuntu 24.04 LTS.  
   (You may customize this; if so, update Step 9 accordingly.)
 
-- Two VMs (both AMD/x64 — B1s and B2ats v2) will use **P6 Premium free-tier 64 GB SSD OS disks**.  
-  The ARM64 VM (B2pts v2) will use an **S4 Standard 32 GB HDD OS disk**.  
-  (If customized, update Step 7 and/or Step 9 accordingly.)
+- Two VMs B2ats [AMD x64] and B1s [intel x64] will use **P6 Premium free-tier 64 GB SSD OS disks**.  
+  The B2pts v2 [ARM64] will use an **S4 Standard 32 GB HDD OS disk**.  
+  (If customized according to need and budget, than update Step 7 and/or Step 9 accordingly.)
 
 This document summarizes the Azure CLI commands to set up the Free Tier 12-Month environment, finalized with a single mgmt-vm Public IP approach.  
 Scroll mid-page for Azure Cloud Shell CLI commands.
