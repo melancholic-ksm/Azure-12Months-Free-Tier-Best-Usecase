@@ -25,7 +25,7 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
 
 - **Name:** sprt-vm
 - **Size:** B1s (1 vCPU, 1 GiB RAM)
-- **Architecture:** AMD x64 (Intel/AMD CPU)
+- **Architecture:** Intel x64 (Intel CPU)
 - **OS Image:** Ubuntu 24.04-LTS Gen2
 - **Hyper-V Generation:** Gen2
 - **URN:** Canonical\:ubuntu-24\_04-lts\:server\:latest
@@ -41,7 +41,7 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
 
 - **Name:** mgmt-vm
 - **Size:** B2ats v2 (2 vCPUs, 1 GiB RAM)
-- **Architecture:** AMD x64 (Intel/AMD CPU)
+- **Architecture:** AMD x64 (AMD CPU)
 - **OS Image:** Ubuntu 24.04-LTS Gen2
 - **Hyper-V Generation:** Gen2
 - **URN:** Canonical\:ubuntu-24\_04-lts\:server\:latest
@@ -55,7 +55,7 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
 
 - **Name:** powr-vm
 - **Size:** B2pts v2 (2 vCPUs, 1 GiB RAM, Premium SSD capable)
-- **Architecture:** AMD x64 (Intel/AMD CPU)
+- **Architecture:** ARM64 (ARM CPU)
 - **OS Image:** Ubuntu 24.04-LTS Gen2
 - **Hyper-V Generation:** Gen264\:latest
 - **URN:** Canonical\:ubuntu-24\_04-lts\:server-arm64\:latest
@@ -115,7 +115,7 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
  ### Using Cloudflare Tunnel we can avoid \$45 per year charged due to Public IP.
   (When Site is in ready state).
   
- ### Further to avoid \$2/mo \/\/\$24/year, choose anyone VM from **B2pts-v2**`(powr-vm)` {ARM based}  or **B1s** `(sprt-vm)` {AMD based} according to your need. 
+ ### Further to avoid \$2/mo \/\/\$24/year, choose anyone VM from **B2pts-v2**`(powr-vm)` {ARM based}  or **B1s** `(sprt-vm)` {intel x64 based} according to your need. 
 
 ---
 
