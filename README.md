@@ -100,7 +100,7 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
  Using Cloudflare Tunnel we can avoid \$45 per year charged due to Public IP.
   (When Site is in ready state)
 
-  Further to avoid \$2/mo \/\/\ $24/year, choose anyone VM from **B2pts-v2**`(powr-vm)` {ARM based}  or **B1s** `(sprt-vm)` {AMD based} according to your need.
+  Further to avoid \$2/mo \/\/\$24/year, choose anyone VM from **B2pts-v2**`(powr-vm)` {ARM based}  or **B1s** `(sprt-vm)` {AMD based} according to your need.
 ---
 
 
