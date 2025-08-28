@@ -250,9 +250,8 @@ az vm create -g $RG -n $VM3 --nics $POW_NIC_ID \
   --generate-ssh-keys \
   --storage-sku Standard_LRS \
   --os-disk-size-gb 32 \
-  --security-type TrustedLaunch \
-  --enable-secure-boot false \
-  --enable-vtpm false
+  --security-type Standard
+
   ```
 
 ## Step 10 — Enable boot diagnostics
