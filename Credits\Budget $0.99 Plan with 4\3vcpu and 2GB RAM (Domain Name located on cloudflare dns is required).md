@@ -1,9 +1,9 @@
 # Azure Free Tier 12-Month Plan For \~\$0.99 Budget/Credit [\~\$0.99 per month]  — CLI Commands (Simplified Notes)
 
 ### ‼️NOTE: - This plan is for users with a budget/credits ≤$0.99 for the 1st month and a domain name managed by Cloudflare DNS (which is free).
-- In this plan you get 2 VM's, `B2ats v2` with 2vcpu and 1GB RAM {AMD/x64}, `B2pts v2` or `Bs1` with 2vcpu and 1GB RAM {ARM64} or 1vcpu and 1GB RAM {AMD/x64}.
+- In this plan you get 2 VM's, `B2ats v2` with 2vcpu and 1GB RAM {AMD x64}, `B2pts v2` with 2vcpu and 1GB RAM {ARM64} or `Bs1` 1vcpu and 1GB RAM {intel x64}.
 - Both VM's will work on Latest Ubuntu 24.04 Lts. You can customize this according to your need, (if you want to customize, than please modify step: 9A/ 9B accordingly)
-- One VM (B2ats v2, AMD/x64) will use a P6 Premium free-tier 64GB SSD OS disk. The other (B2pts v2, ARM64) or (B1s, AMD/x64) will also use a P6 Premium free-tier 64GB SSD OS disk. (if you want to customize anything according to your need, please modify Step: 9A/ 9B)
+- One VM (B2ats v2, AMD/x64) will use a P6 Premium free-tier 64GB SSD OS disk. The other (B2pts v2, ARM64) or (B1s, intel x64) will also use a P6 Premium free-tier 64GB SSD OS disk. (if you want to customize anything according to your need, please modify Step: 9A/ 9B)
 
 This document summarizes the Azure CLI commands we used to set up the Free Tier 12-Month environment, finalized with a single mgmt-vm Public IP approach.  Scroll mid page for Azure Cloudshell CLI commands.
 
@@ -202,9 +202,9 @@ az storage account create \
 STORAGE_URI=$(az storage account show -g $RG -n $SA_NAME --query "primaryEndpoints.blob" -o tsv)
 
 
-## Choose one option based on your requirement. 
- - 9A- {B2ats+B2pts [mgmt-vm+powr-vm]-- in total 4vcpu and 2 GB RAM, but One is AMD/X64 and Other one ARM64}.
- - 9B- {B2ats+B1s [mgmt-vm+sprt-vm]-- in total 3vcpu and 2 GB RAM, both AMD/X64}.
+# Choose one option based on your requirement. 
+ - **9A- {B2ats+B2pts [mgmt-vm+powr-vm]-- in total 4vcpu and 2 GB RAM, but One is AMD x64 and Other one ARM64}.**
+ - **9B- {B2ats+B1s [mgmt-vm+sprt-vm]-- in total 3vcpu and 2 GB RAM, both X64 (AMD and intel)}.**
 
 ## Step 9A — VM Creation (B2ats + B2pts)
 
