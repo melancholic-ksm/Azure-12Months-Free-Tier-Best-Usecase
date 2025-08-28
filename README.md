@@ -6,6 +6,30 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
 
 ---
 
+## 🧾All Available plans
+- **$70 Credit/budget Plan** (domain is not required)
+   - Gets Full Potential of 3 VMs, total `5vcpu` and `3 GB RAM`, and gets a `Static IP address`.
+- **$25 Credit/budget Plan** (domain is required and dns are must to be at cloudflare)
+   - Gets Full Potential of 3 VMs, total `5vcpu` and `3 GB RAM`.
+- **$0.99** (sometimes $0) **Credit/budget Plan** (domain is required and dns are must to be at cloudflare)
+   - Gets Full Potential of 3 VM's, total `4/3 vcpu` and `3 GB RAM`.
+
+---
+
+### VM1 – B1s 
+
+- **Name:** sprt-vm
+- **Size:** B1s (1 vCPU, 1 GiB RAM)
+- **Architecture:** AMD x64 (Intel/AMD CPU)
+- **OS Image:** Ubuntu 24.04-LTS Gen2
+- **Hyper-V Generation:** Gen2
+- **URN:** Canonical\:ubuntu-24\_04-lts\:server\:latest
+- **OS Disk:** 64 GB **P6 Standard SSD** (free tier)
+- **Networking:** Private VNet + NIC, **Dynamic Basic IPv4 Public IP (free)**
+- **Purpose:** Lightweight workloads, testing, or API/microservice
+
+---
+
 ## 🖥️ VM Specifications
 
 ### VM1 – B1s 
