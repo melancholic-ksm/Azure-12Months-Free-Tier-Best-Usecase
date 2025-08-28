@@ -7,11 +7,11 @@ Keep **3 Linux VMs** powered on continuously for 12 months under Azure Free Tier
 ---
 
 ## 🧾All Available plans
-- **$70 Credit/budget Plan** (domain is not required)
+- **$70 Credit/budget Plan** (domain is not required) [Click here to View Plan in detailed]([https://www.example.com](https://github.com/melancholic-ksm/Azure-12Months-Free-Tier-Best-Usecase/blob/1463782971367fbb30a81a3f7c408cef6dec1612/credit%5Cbudget_%2470_Plan.md))
    - Gets Full Potential of 3 VMs, total `5vcpu` and `3 GB RAM`, and gets a `Static IP address`.
-- **$25 Credit/budget Plan** (domain is required and dns are must to be at cloudflare)
+- **$25 Credit/budget Plan** (domain is required and dns are must to be at cloudflare) [Click here to View Plan in detailed]([https://www.example.com](https://github.com/melancholic-ksm/Azure-12Months-Free-Tier-Best-Usecase/blob/1463782971367fbb30a81a3f7c408cef6dec1612/Credits%5CBudget%20%2424%20for%2012months%20(%242%5Cmonth)%20Plan%20with%205vcpu%20and%202GB%20RAM%20(Domain%20Name%20located%20on%20cloudflare%20dns%20is%20required).md))
    - Gets Full Potential of 3 VMs, total `5vcpu` and `3 GB RAM`.
-- **$0.99** (sometimes $0) **Credit/budget Plan** (domain is required and dns are must to be at cloudflare)
+- **$0.99** (sometimes $0) **Credit/budget Plan** (domain is required and dns are must to be at cloudflare) [Click here to View PLan in detailed]([https://github.com](https://github.com/melancholic-ksm/Azure-12Months-Free-Tier-Best-Usecase/blob/1463782971367fbb30a81a3f7c408cef6dec1612/Credits%5CBudget%20%240.99%20Plan%20with%204%5C3vcpu%20and%202GB%20RAM%20(Domain%20Name%20located%20on%20cloudflare%20dns%20is%20required).md))
    - Gets Full Potential of 3 VM's, total `4/3 vcpu` and `3 GB RAM`.
 
 ---
