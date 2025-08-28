@@ -251,15 +251,14 @@ az provider register --namespace Microsoft.Compute
 
 # powr-vm (ARM64, P6 Premium SSD 64GB, TrustedLaunch overrides)
 az vm create -g $RG -n $VM3 --nics $POW_NIC_ID \
---image Canonical:ubuntu-24_04-lts:server-arm64:latest \
---size Standard_B2pts_v2 \
---admin-username azureuser \
---generate-ssh-keys \
---storage-sku Premium_LRS \
---os-disk-size-gb 64 \
---security-type TrustedLaunch \
---enable-secure-boot false \
---enable-vtpm false
+  --image Canonical:ubuntu-24_04-lts:server-arm64:latest \
+  --size Standard_B2pts_v2 \
+  --admin-username azureuser \
+  --generate-ssh-keys \
+  --storage-sku Standard_LRS \
+  --os-disk-size-gb 32 \
+  --security-type Standard
+
 ```
 
 ## Step 10 — Enable boot diagnostics
