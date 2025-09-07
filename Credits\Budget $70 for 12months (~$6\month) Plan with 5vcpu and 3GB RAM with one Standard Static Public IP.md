@@ -17,7 +17,7 @@ No Domain name is necessary, if you got one you can use the other plan where it 
   (If customized according to need and budget, than update Step 7 and/or Step 9 accordingly.)
 
 This document summarizes the Azure CLI commands to set up the Free Tier 12-Month environment, finalized with a single mgmt-vm Public IP approach.  
-Scroll mid-page for Azure Cloud Shell CLI commands.
+Scroll mid-page for Azure Bash in CloudShell CLI commands.
 
 ---
 
@@ -117,7 +117,7 @@ Enabled for all three VMs using the storage account.
 
 # Full Step-by-Step Commands 
 ## ^Rename variables according to your convenience.  
-## ^Run Step 0 every time you start a new Cloud Shell session before continuing.
+## ^Run Step 0 every time you start a new Bash in Cloud Shell session before continuing.
 
 ## Step 0 — Variables
 
