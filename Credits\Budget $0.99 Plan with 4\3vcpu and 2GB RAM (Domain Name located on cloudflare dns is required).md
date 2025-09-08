@@ -264,11 +264,11 @@ az vm create -g $RG -n $VM2 --nics $MGT_NIC_ID \
 ```
 
 ## Step 10 — Enable boot diagnostics
-
 ```
-az vm boot-diagnostics enable --resource-group $RG --name $VM1 --storage $STORAGE_URI
-az vm boot-diagnostics enable --resource-group $RG --name $VM2 --storage $STORAGE_URI
-az vm boot-diagnostics enable --resource-group $RG --name $VM3 --storage $STORAGE_URI
+az vm boot-diagnostics enable --resource-group $RG --name mgmt-vm
+az vm boot-diagnostics enable --resource-group $RG --name sprt-vm
+az vm boot-diagnostics enable --resource-group $RG --name powr-vm
+
 ```
 
 ## Step 11 — Get public IP (only mgmt-vm)
